@@ -1,0 +1,43 @@
+.footer {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(228 228 228);
+    max-width: 100%;
+}
+
+.footer a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.footer__member-yevhenii {
+    color: #2e2e2e;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.footer-description {
+    margin-top: 1rem;
+    font-weight: 300;
+    color: #2e2e2e;
+    text-align: center;
+}
+
+.footer-copyright {
+    width: 70%;
+    margin: 2rem 0 1rem 0;
+    padding: 2rem 0 0 0;
+    border-top: 0.5px solid #2e2e2e;
+    text-align: center;
+    margin-top: 2rem;
+    color: #2e2e2e;
+}
+
+@media screen and (max-width: 650px) {
+    .footer-copyright {
+        width: 90%;
+    }
+}

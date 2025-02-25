@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(228 228 228);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+    position: relative;
+}
+.header a {
+    color: #2e2e2e;
+    text-decoration: none;
+}
+.header__title {
+    position: relative;
+    font-size: 3rem;
+    margin: 16px;
+    padding: 16px;
+    text-align: right;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px;
+}
+
+.navbar__link {
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar__link:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}

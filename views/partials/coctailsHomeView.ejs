@@ -1,0 +1,10 @@
+<main class="main">
+    <h1 class="main__coctails-menu-text">Our Coctails</h1>
+    <div class="main__coctails-names">
+        <% coctailArray.forEach(coctail => { %>
+            <a href="/<%= coctail.group %>/<%= coctail.imageFilename.split('.')[0].toLowerCase() %>">
+                <%= coctail.name %>
+            </a>
+        <% }) %>
+    </div>
+</main>

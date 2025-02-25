@@ -1,0 +1,7 @@
+<% if (locals.pageType) { %>
+    <% if (locals.pageType === "alcoCoctail" || locals.pageType === "nonAlcoCoctail") { %>
+        <%- include('./coctailsItemView') %>
+    <% } else if (locals.pageType === "alcoholicHome" || locals.pageType === "nonAlcoholicHome") { %>
+        <%- include('./coctailsHomeView') %>
+   <% } %>
+<% } %>
