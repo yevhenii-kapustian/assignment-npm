@@ -26,5 +26,4 @@ app.use("/alcoholicCoctails", alcoholicCoctailsRouter)
 app.use("/nonAlcoholicCoctails", nonAlcoholicCoctailsRouter)
 
 
-export default app;
-
+app.listen(PORT, () => console.log(`✅ listening on port ${PORT} ➡️ http://localhost:${PORT}`))
